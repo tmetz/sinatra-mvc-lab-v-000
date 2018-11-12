@@ -13,8 +13,8 @@ class PigLatinizer
       else
         word = word[1:] + word[0] + "ay"
       end
-      latinized += word  
+      latinized += word
     end
     latinized
-  end  
+  end
 end
