@@ -15,6 +15,6 @@ class PigLatinizer
       end
       latinized += word + " "
     end
-    latinized
+    latinized[0..-1]
   end
 end
