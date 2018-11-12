@@ -11,7 +11,7 @@ class PigLatinizer
       if word.start_with?("a", "e", "i", "o", "u")
         word += "way"
       else
-        word = word[1:] + word[0] + "ay"
+        word = word[1..-1] + word[0] + "ay"
       end
       latinized += word
     end
