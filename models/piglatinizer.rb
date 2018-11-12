@@ -7,7 +7,7 @@ class PigLatinizer
   def to_pig_latin
     phrase_array = @phrase.split(" ")
     latinized = ""
-    phrase_array.each |word| do
+    phrase_array.each do |word|
       if word.start_with?("a", "e", "i", "o", "u")
         word += "way"
       else
