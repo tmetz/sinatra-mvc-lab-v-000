@@ -1,7 +1,6 @@
 class PigLatinizer
 
-  def initialize(phrase)
-    @phrase = phrase
+  def initialize
   end
 
   def piglatinize
