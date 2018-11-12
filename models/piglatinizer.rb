@@ -3,8 +3,8 @@ class PigLatinizer
   def initialize
   end
 
-  def piglatinize
-    phrase_array = @phrase.split(" ")
+  def piglatinize(phrase)
+    phrase_array = phrase.split(" ")
     latinized = ""
     phrase_array.each do |word|
       if word.start_with?("a", "e", "i", "o", "u")
